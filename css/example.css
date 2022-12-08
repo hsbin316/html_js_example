@@ -1,14 +1,29 @@
 body{
   background-color: orange;
 }
+
+dialog {
+  padding: 0px;
+  border: 0px;
+}
+
 .inline {
   display: inline-block;
   cursor: pointer;
 }
+
 .red {
   color: red;
 }
 
 #inputModal::backdrop {
   background-color: rgba(0,0,0,0.7);
+}
+
+.modalContent {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  
+  background-color: white;
 }

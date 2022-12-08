@@ -12,15 +12,28 @@
     <div>
         현재 접속자는 <span class="red">홍길동</span>님 입니다.
     </div>
-    <!-- <dialog id="inputModal">
-        <form>
-            <label>
-                이름:
-                <input type="text" />
-            </label>
-            <button>확인</button>
-        </form>
-    </dialog> -->
+    <div>
+        <span class="studentNo">학번</span>, <span class="email">이메일</span>
+    </div>
+    <dialog id="inputModal">
+        <div class="modalContent">
+            <form class="modalForm">
+                <label>
+                    이름:
+                    <input name="userName" type="text" />
+                </label>
+                <label>
+                    학번:
+                    <input name="studentNo" type="text" />
+                </label>
+                <label>
+                    이메일:
+                    <input name="email" type="text" />
+                </label>
+            </form>
+            <button class="modalSubmit">확인</button>
+        </div>
+    </dialog>
     <script src="js/example.js"></script>
 </body>
 </html>
