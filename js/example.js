@@ -49,7 +49,6 @@ modalSubmitBtn.onclick = () => {
         setEmail(value);
       } else {
         alert(key + '의 형식이 올바르지 않습니다.');
-        continue;
       }
       localStorage.setItem(key, value);
     } else {
