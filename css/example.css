@@ -1,3 +1,14 @@
 body{
-    background-color: orange;
+  background-color: orange;
+}
+.inline {
+  display: inline-block;
+  cursor: pointer;
+}
+.red {
+  color: red;
+}
+
+#inputModal::backdrop {
+  background-color: rgba(0,0,0,0.7);
 }
